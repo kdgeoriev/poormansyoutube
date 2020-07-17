@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div className="ui container">
-      <SearchBar labelText="Search Videos" onSubmit={search} /> <br />
+      <SearchBar labelText="Search for videos" onSubmit={search} /> <br />
       <div className="ui grid">
         <div className="ui row">
           <div className="eleven wide column">
